@@ -2,5 +2,5 @@ pipeline:
   mirror:
     image: appleboy/drone-git-push
     branch: master
-    remote: git@github.com:Dryusdan/docker-ghost.git
+    remote: git@github.com:Dryusdan/unsplash-wallpaper.git
     secrets: [ git_push_ssh_key ]
