@@ -1,5 +1,5 @@
 #/bin/bash
 
-wget -O /tmp/wallpaper.jpg https://unsplash.it/2560/1444/?random
+wget -O /tmp/wallpaper.jpg https://source.unsplash.com/collection/1053828/1920x1080
 rm .cache/wallpaper/*
 gsettings set org.gnome.desktop.background picture-uri file:///tmp/wallpaper.jpg
